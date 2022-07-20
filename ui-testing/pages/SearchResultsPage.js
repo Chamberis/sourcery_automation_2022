@@ -12,7 +12,7 @@ class SearchResultsPage {
     async getQueryInput(){
       return await this.page.locator('input[name=q').getAttribute('value');
     }
-  }
-
+  } 
+  
   module.exports = { SearchResultsPage };
   
